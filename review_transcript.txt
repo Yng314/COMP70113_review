@@ -1,0 +1,884 @@
+[自动生成的转录文字。可能已进行编辑以提高清晰度。]
+Okay. Uh. Welcome to the, uh, exam preparation session for the generative AI course.
+
+This module covers the cutting edge landscape of the deep generative modelling.
+
+Today we will review the core architectures on the mathematical foundations you are needed to master for the upcoming, uh, assessment.
+
+Uh, after this course, we will have, uh, you might talk, uh, if you have some friend in this class.
+
+Try to send them a message to come.
+
+It is usually, uh, more friendly to have more students in the classroom when we have, uh, guest or, uh, guest to talk.
+
+Yeah. If you have some connection with your classmates, send a message and ask them to come.
+
+Uh, after one hour. Yeah. Thank you. Uh.
+
+Today for this course we will discuss.
+
+I will introduce what were included in the exam.
+
+And, uh. Uh, this is very important.
+
+And, uh, it is not a maybe it is uh, uh, the exam, maybe a little bit, uh,
+
+come to get to finish it within 90 minutes because, uh, there are on the six questions.
+
+So every question are on the 1 or 1.5 minutes.
+
+So, uh, in this way, we can ensure the final, uh, score distributed, you know, causing this, uh, uh, the exam, uh, include us three questions.
+
+The first section of the exam consists of a single choice of questions divided into four subparts.
+
+We will cover, uh, text generation focusing on tokenization, be catching, uh, audio generation,
+
+including inspect spectrograms and, uh, voice cloning and 3D generation covering Nerf and Gaussian splatting.
+
+And finally a video generation which emphasises optical flow and, uh, temporal consistency.
+
+So for the first part it is uh, 20 single choice questions.
+
+And uh, it's not we cannot spend too much time here, maybe around, uh, 10 to 20 minutes.
+
+We need to finish the first part. It is very easy, but, uh uh.
+
+Try to, uh, check the formulas.
+
+Right. Especially related to tokenization.
+
+Teach your first thing. And there are some some, uh, topics just here.
+
+Uh, so I compressed the seven, seven slides into one slide, and, uh, uh, most of the exam, uh, questions are from this,
+
+uh, five maybe are on the 70 to 80 and another 20 to the from and from all sevens, uh, slides.
+
+So if you have more time, you are, uh, check all of the, uh, cost material.
+
+And, uh, if you are busy preparing for other courses, uh, you can only check this slide.
+
+Yeah. Uh, this is the first part three, uh, four part of, uh, uh, single questions.
+
+And the second part is the basics of, uh, generate two models and the viewer delves into the foundation.
+
+Foundational, uh, deep learning mechanics. Mechanics.
+
+The majority of the marks here, uh, are on the half of the questions, uh, related to transformer and attention.
+
+Uh, you will also be tested on softmax classifiers and, uh, cross entropy gradients and the special, uh,
+
+calculations of a convolutional neural networks, and then the parameter efficient, say, of, uh, low rank adaptation, uh, or.
+
+Laura. Yeah. So here, uh, the question is the in the format of okay, there is, uh, one, uh,
+
+one sentence to give the question and then, uh, you can spend around the 1 to 3 minutes to answer each question.
+
+Do not spend too much time on, uh, individual question if you cannot, uh, do not know the answer, uh, because, uh, uh.
+
+It is okay to skip some of that question.
+
+Yeah, there are some questions designed for, uh, the Senate to get, uh, 90% of the score.
+
+Uh, the final section evaluates the high level generative frameworks.
+
+So, uh, mechanical, uh, derivations, uh, we will cover, uh, the topic of a very Gan diffusion.
+
+Uh, we were focussed heavily on, uh, care divergence and it's Gaussian specific calculations.
+
+And uh, it will also need to be prepared a for uh, derived uh, evidence, uh, lower bound for very um.
+
+I remember. You can bring, uh, A4, uh, paper.
+
+Try to include something. You know, if, uh, you know, something, uh, informative in, uh, A4 paper, explain the, uh,
+
+minimax objectives of against and understand of the Markov chains that defines, uh, forward a process in different models.
+
+Yeah. So, uh, the third part, uh, we will cover those, uh, topics and, uh, also, uh, QA question, uh,
+
+one sentence of question and your answer, you'll have one line sometimes for the, uh, prove the evidence for a lower bound.
+
+Maybe you need a, uh, three lines or four lines of, uh, space for the answer.
+
+So if you skip. The is the question.
+
+Try to. Uh, put in a special.
+
+And, uh, uh, because the exam paper has been submitted.
+
+There's no chance to change anything. So what I can do is, uh, give you a suggestion.
+
+How do you, uh, manage to answer 65 question within 90 minutes?
+
+So, uh, effective, uh, time management is crucial for this exam.
+
+You the, um, for, uh, Ravi, the peace of, uh, around the one minute to one question for section one.
+
+And, uh, save more time for the third, uh, calculations in section two on the multi-step, uh, proofs required for section three.
+
+Uh, and remember the, uh, explicit, uh, instructions do not, uh uh, evaluate, uh uh,
+
+log numerically and, uh, leave space after and attach these to give uh, second pass.
+
+So my suggestion is, uh, go quickly and start from the first question to the last question.
+
+And if you have cannot um, remember or do not know how to answer a specific question just to leave a space there and escape.
+
+And, uh, yeah, this way I think you can easily get the on the 60 to 73.
+
+Yeah. Um, okay, let's, uh, give a quick, uh uh uh uh uh, review, uh uh, check of what we learned, uh, during our generative art course.
+
+Uh, generative modelling is about estimating and sampling from a data distribution G here, a given, uh,
+
+training dataset where Z is something from, uh, P, our goal is to develop a model, uh, p theta that can perform two primary tasks.
+
+Uh, then the, uh, density estimation where we input x to get the,
+
+the probability and the sampling where the model generates a new original output x prime.
+
+Uh, this, uh. And the primary tour for mayor of this distance is divergence for, uh, discrete, uh, discrete distribution.
+
+It is the sum of the target, the probability multiplied by the log ratio of the target to the upper case of meshing.
+
+Uh, crucially, how divergence is, uh, now symmetric.
+
+That means the distance chance depend on which distribution is a reference.
+
+And it's always non-negative. So carrier divergence will be included in the exam.
+
+And uh, uh, keep in mind of uh keep proper uh properties and uh, there will be some calculation.
+
+Not exactly this number do not need to, to, uh, write down this number in the first.
+
+So, uh, we were calculated, uh, chiral divergence.
+
+The most important thing is the carrier divergence is, uh, latitude.
+
+Uh, uh, reference distribution. So, uh, what we need, uh, is not calculated the log value, but, uh.
+
+Member to understand which is the reference distribution.
+
+So, uh, here is the example.
+
+You can either check and the. We were not to spend too much time here.
+
+And for divergence. As we can see, uh, when we select the fare relative to highest, the, uh, the average value is 0.1438.
+
+And if we swap the, uh, reference and, uh.
+
+Results tend to their point.
+
+The uh one straight away during the exam do not need to calculate this number, just the need to write to the initial format or just the,
+
+uh, slightly change the format, uh, to change the, uh, uh, simple, uh, just have a simple comprehension.
+
+Um, for the result. We know that the only way and, uh, two distributions are same.
+
+Uh, the, uh, carrier divergence, uh, approach zero and the other, uh, large row and uh, carrier divergence is not a symmetric.
+
+That means that, uh, if we swap the difference, do you see the results changed?
+
+So, uh, this is, uh, important accomplishing in the second the second part of the exam.
+
+Uh, try to understand, uh, what is the divergence?
+
+What's the proper properties of a carrier divergence? And, uh, how to calculate it is, uh, not complicated from, uh, my view.
+
+But if you do not spend the time to, to to understand this, it will be able to be the challenge.
+
+And then, uh, returning to our modelling pipeline, we can now define the training or more process.
+
+And we aim to make the model distribution to similar to the theta distribution P, by minimising the carrier divergence between them.
+
+This uh, mathematical objective guys uh training algorithm as it to process the training data set.
+
+It is important that you recognise that, uh, minimising, um, carrier divergence is,
+
+uh, approximate, equivalent to performing maximum likelihood estimation.
+
+And uh, by adjusting uh, theta to maximise the likelihood of the training data under our model, uh,
+
+the, uh, effectively forcing the model's distribution to, uh, be similar to the true data distribution.
+
+Uh, deep generative models. Uh, sits at the intersection, uh, of, uh, traditional generative, uh, model modelling and the deep learning, uh,
+
+where standard uh, generative, uh, uh, modelling might use, uh, Gaussian mixture or deep learning may not focus on this.
+
+Uh, Matt, only focus on the, uh, simple, uh, classification and uh,
+
+generative AI use deep neural networks to handle complex tasks like autoregressive rate generation, V gang and diffusion.
+
+And, uh, these are the main focus of our generative course.
+
+And, uh, generative models are broadly categorised by how they handle probability density.
+
+The explicit the density models can be further, uh, divided into, uh,
+
+exotic density models like autoregressive activities and normalising flow and uh.
+
+Uh. Approximator density models like a V and the diffusion.
+
+And we also have uh.
+
+Um, implicit density models, uh, such as the Gans which generate the data without the, uh, ever defined, uh, explicit probability function.
+
+And then, um. Um, to begin with our, uh, uh, questions, um.
+
+Uh, in question two, uh, we look at the class, uh, softmax classifier.
+
+Uh, in question two, we have, uh, some calculation, uh, related to softmax.
+
+Uh, the softmax, uh, allows us to interpret, uh, raw classifier scores here or, uh, logits, uh, normalise the probability for a given class.
+
+The probability is, uh, exponential with its score divided by the sum of the exponential for all classes.
+
+We then calculate the cross entropy loss by taking the negative log of the, uh probability assigned to the correct class.
+
+So. Um, for example, if my question is we have the normalise the probability here.
+
+We have the conscious level. What is the loss for the, uh, cross entropy?
+
+Here. What we only need to remember is the loss is the probability.
+
+Normalised the probability at the location of the quantity.
+
+So conscious is the first class. Uh, the loss is the minus is negative.
+
+Log there upon the Wall Street.
+
+So this is a loss. You only need to remember it is very simple that, uh, for softmax loss, it is.
+
+Uh, it is, uh, target of probability, uh, minus log target the probability.
+
+So, um, this is a softmax classifier.
+
+And then there is a very complicated, uh, calculation for the, uh, gradient back propagation on the softmax loss.
+
+What we need to memorise is not that complicated.
+
+The proof is for the loss on the, uh.
+
+Uh, logit. The, uh, uh, for for the gradient of the, uh, logit here is the partial derivative of loss over, uh, with respect to, uh, Z is normalised.
+
+The. Uh. Probability minus.
+
+Uh, walk out the vector. So let's go back to this example.
+
+What is the loss? Uh, what is the gradient?
+
+Um, the vector here. So it is this vector minus this vector.
+
+So the first one, uh, they're putting the uh they're putting the one's three.
+
+Uh minus one is uh minus uh they're putting the at seven.
+
+So the uh, uh, gradient. Uh.
+
+Is uh uh, their point. Uh uh uh uh uh seven for the first, uh, dimension.
+
+So this is the conclusion. What we need to do, uh, during the exam is, uh, if you forget this, you do not need to spend,
+
+uh, five minutes to prove what is, uh, the exact, uh, format of this gradient.
+
+Uh, uh, it is not that easy.
+
+It's very deep here to try to this model.
+
+We use a gradient descent, which requires calculating the derivatives of the loss of each respect to what are the bias.
+
+And here that we can see is uh, x is the input.
+
+And then they have the intermediate representation Z which is uh linear combination of Italian and x.
+
+And then this z goes to the softmax normalisation.
+
+And they can reduce the final cross-entropy loss.
+
+This is the softmax layer. And what we want to know is after we get the um.
+
+Uh, normalise the similarity.
+
+And we have already have the walk the vector and we can calculate the loss and how this loss and propagate to update the map.
+
+So, uh, we need to know the gradient on on Z.
+
+So the conclusion is very easy.
+
+It's just to normalise the probability and minus uh one for the vector.
+
+So we do not need to. Spend too much time like, uh, in our class.
+
+Uh, explain how, uh, this, uh, grading is calculated, but the G exam, you do not have time, to be honest.
+
+We skip this part. If you have interested, you can check it again.
+
+And then, uh, we, uh, in the past, because of generative learning, we also have, uh, uh,
+
+some calculation for convolutional layers, um, every exam, uh, how, uh, convolution layer transforms the feature into,
+
+uh, uh, two dimensional, uh, output the feature map the process to use uh, uh, uh,
+
+bank of filters issue in here as uh, f1 f2 to perform uh, with some across the input, uh, channels.
+
+Uh, mathematically, uh, the uh, mapping, uh, the input, uh uh x uh, here uh x the input,
+
+the channel is uh, the, uh, the, uh, the, the uh, dimension is uh, uh,
+
+the input times h times the output is, uh, uh, um, channel output times, uh,
+
+action w so one of the calculation is, uh, to, uh, calculate the, uh, uh, filter size.
+
+So we have the input, we have the output, they have the dimension of the filter.
+
+What's the filter size. And sometimes for the filter we have the bias term.
+
+So keep in mind how how to uh calculate uh correct the uh filter size.
+
+And then another question in the regarding how we calculate the, the receptive field.
+
+So uh, if you uh, if the layer is not that deep, it is very easy.
+
+You can just for example for this one here the receptive fairly the three.
+
+And then you can expand this uh, uh receptive field by another layer.
+
+Another layer. So three layer, you can uh enumerate uh uh receptive field.
+
+It's not that complicated. And uh uh here is the.
+
+The calculations are very size uh, in, uh, standard, uh, deep learning architecture.
+
+Whereas uh three dimensional to match the depth of the input.
+
+And for each output channel, we sum the convolution of the individual for the channel with their corresponding filter white width w here.
+
+And the bias term, or at least also have a bias third here.
+
+This ensures that every feature looks at the origin for the, uh, channels,
+
+but simultaneously to extract the, uh, complicated, uh, complex cross channel features.
+
+And here is how we calculated the size.
+
+And uh, to, uh, calculate the, uh, receptive field, uh, correctly, there are uh, uh,
+
+some specific problems, like, uh, the strength for the, uh, uh, convolution, uh, filter.
+
+And there are also polling operators and offices, uh, uh, operators.
+
+So uh, increase, uh, receptive, fair. And uh, uh, you can.
+
+Um, during the calculation in order to explicitly, uh, consider above this.
+
+And then after the basics of, uh, geometrical learning, we have, uh.
+
+Uh, text generation, part, um, for the text generation, uh, language models,
+
+uh, categorised by their architectural flow and their training objectives.
+
+And we have an encoder only like method of like a Bert.
+
+And then we also have encoder decoder models like T5. And uh we also have uh decoder on there, models like GPT uh, which are autoregressive.
+
+So, uh, Bert is a method of the, um, mask of the mask of the partition that the for, uh, you can put the sentence, the, uh, put a mask.
+
+Uh, for example, here is, uh, Pittsburgh. And, uh, Bert predict this, uh, mask of the word and the train, the model.
+
+So this is, uh, training objective of Bert and for T5, uh, the which include the encoder and decoder framework,
+
+the encoder process, the first sequence, and, uh, decoder generates the target for English translation in this example.
+
+And uh, uh, our main focus in the text generation is the autoregressive, uh, uh, training method, uh, which is uh, uh, causal language model.
+
+Uh, the uh, probability of the sequence is the product of each token conditioned on or uh, preceding uh, tokens.
+
+Uh, the model predicts the next the word uh. So this is the training difference between Bert and, uh, T5 and, uh.
+
+Uh. Here.
+
+Um, we give the example of, uh, uh, gpt2, uh, framework.
+
+And uh, uh, each block consists of a of self-attention and, uh, multi-layer perception, uh, linked by the residual connection and layer normalisation.
+
+So, um, before processing tax, uh, through neither masters of data raw space into physical units.
+
+Uh, since many, uh, words uh, not to you, uh, modus uh, best vocabulary they, um, updating to uh, uh, numerical IDs.
+
+So the embedding table lookup this, convert the text into, uh, higher dimensional vectors, uh, that the transform can actually manipulate.
+
+And, uh, we have we consider three different, uh, kind of, uh, tokenization for word level tokenization.
+
+Uh, the, uh. Uh, man limitation is, uh, out of vocabulary.
+
+Uh, foreign. And, uh, if we increase, uh, larger vocabularies.
+
+Uh, uh, we were reduced.
+
+So the issues by the significantly increase the number of parameters and then we count,
+
+we also consider another solution, character level, uh, tokenization.
+
+Uh, we treat every letter and, uh, as a token.
+
+Uh, but this word is also a very small vocabulary, and it has significant drawbacks.
+
+And this sentence becomes much longer sequence for the model to process.
+
+And the invasion of characters do not carry semantic meanings on their own.
+
+Um, more than uh, and I use, I try and use uh, uh, subword level, uh, tokenization to find the, uh, middle ground.
+
+So the core is to, uh, moderate and vocabulary size, uh, with no all the tokens.
+
+And so we will have, uh, question regarding, uh, different tokenization method.
+
+I remember it's, uh, similar to the question. And then, uh, the transformer latched on to my modules, the modified attention and the feedforward.
+
+The network attention is, uh, calculated.
+
+I use the query key value with, uh, formula here, formula here, and, uh, uh, feedforward and network then applies a linear transformation.
+
+Followed by a ReLU activation. So in the attention, we have the square here because, uh, okay.
+
+Uh, the multiply by multiplication of a qk, uh, uh, divided by the, uh, square of square root of uh dimension feature dimension.
+
+The reason why we have, uh, this normalisation, uh, is, uh, without it, the dot product QK can go very large, pushing the softmax into regions.
+
+The extremely small gradient scaling reduces this vanishing gradient problem.
+
+And, uh, keeping the, uh, trend in post as a stable.
+
+So this will be answering the question.
+
+Uh, we need to understand why we have, uh.
+
+Uh. Um. Square root of, uh.
+
+The here and then in the decoder. Only vum work with must have prevents the model from looking into the future.
+
+This is achieved by masking the right side of the attention matrix metrics before the softmax operation.
+
+Typically by setting the values to infinity here.
+
+This ensures that at any point, the uh model can only attend to tokens that, uh, appeared uh uh earlier in the sequence.
+
+Uh, just that be the alpha generation. We use the heavy caching, uh, during the autoregressive process.
+
+Uh, the key and the values for previous tokens are stored in, uh, memory, rather than being recomputed, uh, at every step.
+
+This turns, uh, uh, quadratic uh computation into a more efficient process, focusing only on the new query token being generated.
+
+So for heavy cache, uh, the catch key and the value.
+
+But we do not catch, uh, query. So, uh, we need to understand, uh, what is the catch?
+
+And this is also very important than, uh, interview question when you look for a job, uh, the journey of, uh, um, um, model involves three states,
+
+which include a pre-training on massive raw text to provide, uh, for broad knowledge and secondly,
+
+to supervise the fine tuning these, uh, model to follow instructions.
+
+Finally, it is, uh, reinforced learning use uh, uh preference data to align the model with human expectation.
+
+And during training, the model acts the learner and the, uh, prefix to predict the next token in the conscious data, uh, during, uh, sampling.
+
+The uh, uh predictor generalised uh token, which is exactly the package into the model,
+
+uh, the part of the input and the for next step, allowing to generate a long form.
+
+Here, uh, another concept is, uh, teacher forcing, um, the to stabilise the, uh, training.
+
+We use the teacher first thing instead of, uh, feeding the model to, um, uh, predictions.
+
+According to, uh, itself, we always condition on the next.
+
+The prediction on the furniture is the preceding word. The query is, uh, to minimise, uh, cross the entropy loss between the, uh, models.
+
+Uh, output, uh, distribution under the hot and cold encoded the target.
+
+So don't training. We have the truth. We do not need to calculate loss.
+
+Um, based on the, uh, sequence of prediction, we only need to compare with the quantity used for each, uh, word.
+
+And but during testing, uh, that there is no teacher, uh, the model must, uh, sample from its own predicted distribution to to choose the next word.
+
+It can as our picks the most likely word or sample according to the probability to introduce a uh uh uh varieties.
+
+So the self lost continues until the end token uh, is generated.
+
+This is the most important concept, the included in the text generation.
+
+And then, uh, for efficient fine tuning, we use Alora.
+
+And uh, instead of updating all the massive opportunity uh, with matrix W, we freeze it and then choose some more lower rank, the matrix.
+
+Uh, here, uh, we need to understand what is, uh, uh, parameter number.
+
+What's the rank of the, uh, uh, Laura, uh, set of branch?
+
+And what is, uh, how we initialise it?
+
+So, you know, able to keep up to the, uh, keeps the prediction.
+
+Same as before when we initialise this, Laura branch is, uh, uh,
+
+for in layer A is normalised by a Gaussian, and the B is zero because the after because of when p zero.
+
+There is nothing up to, uh, the original uh, network at the beginning.
+
+Uh, after the text generation, we have introduced a V, and, uh.
+
+Um, we assume our data is generated from, uh, unsub.
+
+Uh, um, uh, observed in the vector Z, for example, X is the image of, uh, face here.
+
+Uh, Z represent attributes of like, uh, expression age.
+
+If you keep the model manageable, we assume that a simple prior for the tabulated, uh, Gaussian distribution.
+
+To train this model, we start with the call maximum likelihood and trying to maximise the X using the bias law.
+
+We can express this as, uh, this here.
+
+So here we use the best raw and uh, most straightforward uh, is we swap this term here with this one which is the standard best, uh formulation.
+
+And then we for X is swap for the uh, picked uh, the conditional x and the x.
+
+Uh, we can have this, uh, formulation and uh, uh, where the numerator, uh, the, uh, the decoder and the prior is easy to define the denominator here.
+
+Uh, the true, uh, posterior is impossible to compute, uh, directly, uh, because there is no close for,
+
+uh, way to calculate, uh, exactly which Latin of rivals to produce a specific image.
+
+Uh, okay. So in our example, we were, um, have the QR question, uh, how we represent, uh, PC and, uh,
+
+why it is not, uh, uh, why it is impossible to compute that directly, something like that.
+
+So we need to understand the here.
+
+Um. And then. What we are doing is we have, uh, approximate uh, solution.
+
+We introduced uh Q uh phi as the conditional x, which is uh, encoder D here.
+
+So, um, now we can we replace this intractable posterior with, uh, tractable, uh, variational distribution.
+
+This is the solution. And, uh, how does, uh, neural network output a distribution?
+
+Uh, instead of predictor Z directly, the encoders output, uh, mean and the, uh, standard deviation of, uh, Gaussian distribution.
+
+The decoder then samples from this distribution to reconstruct the data.
+
+So this is, uh, this Max is, uh, sampling.
+
+Um, it turns tractable. And we start from, um, base rules, uh, in log form here.
+
+Uh, evidence of lower bonding is, uh, important, uh, concept.
+
+So, uh, we include, uh, in the exam and, uh, this is the, uh, the standard form of, uh, best and, uh.
+
+Uh, what we are doing here is we multiply numerator, numerator and denominator by the q phi, uh, the conditional x.
+
+And then we have uh, now we can rearrange uh, it into interpretable terms here.
+
+Um, we submitted the log turns into a sum of uh, first one user, it's interaction.
+
+And the second one is uh uh uh, prior regulation.
+
+And this last one is a gap between operators, uh, approximate and the true posterior.
+
+Uh, this term here is always larger than zero.
+
+So this is the reason why we, uh, uh, have, uh, lower bound.
+
+We tested the expectation here, and, uh, we dropped the non-negative, uh, uh, term and get the, uh, evidence.
+
+The lower bound, um. This?
+
+Is that the third? Uh. Um. Uh, proof of the evidence.
+
+Lower bound. And this, uh, equation lets us express the, uh, log p x uh, into three pieces.
+
+Uh, first one is the reconstruction term. Uh, this is, uh uh.
+
+Uh, lost. Let's do the image image level reconstruction.
+
+And then second, that is a character that, uh, compares uh, encoder distribution to the criteria and uh,
+
+character that uh, compares the encoder to the true, uh, posterior.
+
+Uh. So we were also near you that you clearly understand.
+
+Oh, this is a story time. What's the, uh, meaning of those three terms?
+
+This page is also included in the exam.
+
+And, uh, that's how reconstruction and then, uh, prior regularisation.
+
+And the last one is uh, posterior approximation and uh, it is uh, care divergences last zero zero.
+
+So we have the lower bound of our uh via training objective.
+
+So, uh, this is something a little bit complicated.
+
+Uh, try to put some time to understand and, uh, um, do some proof by yourself before the exam.
+
+Okay. This is about the V, and then we have, uh, we studied the classic uh, uh, game minimax objective here.
+
+Um. Uh, we interpret this, uh, objective by first, uh, fixed uh, generator, fixed fixed G and focussed on the discriminator.
+
+Uh, the network, uh, once the X, the discriminator, uh,
+
+predict the one for real data and the predictor zero d generated uh, data discriminator, uh, generate.
+
+Uh, it is, uh, uh, letting the coder the generated uh, image and the discriminator here.
+
+And then we wish the discriminator, uh, to output the zero for fake data, which is, uh, exactly a binary classification task.
+
+And again, training, uh.
+
+Uh, our ton of, uh, chances is, uh, uh, the training is, uh, iteration between the training of generator and, uh, discriminator.
+
+Uh, and then after we, uh, fix, uh, the discriminator, what we are doing is, uh, the, uh, trying the generator so that the generator many learn.
+
+So the fact that, uh, turn involved is here, and the pushing the generator distribution, uh, towards the real while here,
+
+the generator G tries to for at least from another D so that the affect samples are, uh, classified as, uh, rare.
+
+And, uh, for this, uh, different model, uh, the for the processes, uh, act of adding noise.
+
+And as a reverse, the process is, uh, the, uh, generative, uh, act of denoising and the in the forward, uh,
+
+process of identifying the transition distribution channels and distribution here as a Gaussian distribution,
+
+uh, it is expressed uh, as this from, uh, from lashing.
+
+And it is. It is also included in the exam.
+
+So to make the, uh, notation clear, we have uh, uh, we let, uh, our 40 equals to one minus by 30.
+
+This allows us to rewrite the this distribution as this equation.
+
+And initially we define our processes through, uh, step by step transition.
+
+However, to train efficiently, we want to know if we can jump directly, uh, from our clean image to any noise, uh, states.
+
+And before we, um, do the calculation, uh, we reviewed a foundation, uh, property of a Gaussian.
+
+If we have two independent variables, uh, some of them from Gaussian, they are assigned also a Gaussian.
+
+So this is what we used, uh, during our calculation.
+
+And uh, this is also important that we have some calculation related to uh, uh, forward a jump.
+
+Yeah. Um.
+
+Uh, let's test this with the two steps of our forward a process and use the reparameterization trick.
+
+We can express x1 as a function of x zero and the some noise that has no zero.
+
+And then we express x2 as a function of x1 and another noise of no one.
+
+And by substituting the expression for x1 into the equation over x2, we get a vector relationship between x t on x1.
+
+As a result to. Is like this.
+
+So, uh, the, uh, uh, uses, uh, property of a Gaussian distribution.
+
+We can successfully merge two Gaussian steps into one.
+
+So this is the important. Uh uh.
+
+Case, two stem case. And then we can extend this logic recursively for any steps T by extending the turn,
+
+we find that the mean suggests by the product of all previous values, and the variance goes accordingly.
+
+This leads to uh, the general form formula.
+
+To simplify this, we define, um. Um.
+
+Um. After a year of defiance, uh, um, apathy with the bar here.
+
+With the bar. So, uh, this gives, uh, us, uh, director for the jump distribution.
+
+This is very powerful because, uh, it shows that even after many steps, the distribution.
+
+Uh, of XT conditional on x0 remains a simple Gaussian.
+
+So, uh, this is a very important concept. Again different model.
+
+So this is also included in the exam. And uh, try to uh, do some of the inference, uh, by yourself, for example, uh, for the case.
+
+What, uh, what is the final, uh, formulation?
+
+And uh, for the general case, what is the final formulation?
+
+Yeah. Uh, to.
+
+Uh, this, uh, for jump means that, uh, given, uh, current data x0,
+
+we can sample XT at any arbitrary time step in a single step without needing to iteratively through, uh, Markov chain.
+
+And then um, the for diffusion, we have an important and uh, uh, uh method named the Latin diffusion,
+
+which is the operator not in the image space, but in the latent space, which can accelerate the, uh.
+
+Uh, training and, uh. Ya.
+
+This is also include a very in the single choice question.
+
+And then we have the uh generative uh to them uh, and uh,
+
+we have we need respect that generation thorough can have high quality samples faster sampling model compared converged uh and diversity.
+
+But uh, gang diffusion and the way most of them are only with two, uh, properties.
+
+And then, uh, after the generation image generation, we have uh, uh, audio generation, um, we have different format of audio generation.
+
+For example, waveform here is a sequence of numbers over time.
+
+This is what the microphones are. Record, uh, pressure change in the air.
+
+But the fallen in this representation is a too large. And, uh, modelling directly is a hard, uh, if we zoom in and we see the rapid,
+
+uh uh uh, if we zoom in here, we can see the, uh, rapid, uh, uh, oscillations.
+
+And the those tiny fluctuations do not, uh, correspond directly to the meaning of, uh, or uh, uh, for, uh, for funnies.
+
+So, uh, learning from, uh, raw FC is inefficient because the structure of, uh, hidden this much motivate us better, uh, representations.
+
+And instead we transform audio into a spectrogram.
+
+This tells us how much energy is listed at, uh, each frequency over time.
+
+Uh, let's look at the knowledge and look at, like, uh, image and, uh,
+
+deep learning, uh, are very good at the, uh, learning in the image from the image.
+
+This is, uh, why most, uh, early in your, uh, TTS models predict the spectrum instead of landforms.
+
+And we also, uh, mention about, uh, uh, voice cloning.
+
+Um, voice cloning is, uh, achieved by modify, uh, standard, uh, speech system either into, uh, to incorporate the speaker embedding.
+
+Uh, speaker embedding is, uh, to map different voice into a cluster here.
+
+Speaker encoder is to map different a voice into a cluster, the latent space.
+
+And, uh. Um, voice cloning is something I can, uh, reproduce the satire or the, uh, uh,
+
+information not related to the content that they speak, but the the way we speak.
+
+So this is, uh, uh, some unique set, uh, concept about, uh, voice cloning.
+
+And then we have, uh, 3D generation.
+
+We need to understand these, uh, different 3D representations, for example, uh, 3D, uh, uh, point cloud and the point of cloud,
+
+uh, formulation, uh formulation and permutation invariant and uh, order of the points done to change the shape.
+
+And for the point cloud it lacks, uh. Uh, topological meshing and, uh, can be noisy when captured from real world of scans.
+
+And then we have the, uh, the mesh and mesh, uh, are defined by vertices, edges and the phases.
+
+And the messed up formulation, uh,
+
+are not formulation of the environment and the connection connections between the vertices that defines the geometry.
+
+And, uh. This is, uh, probably a mess.
+
+And then, uh, we also have voxels, um, which, uh, securitise, uh, 3D shape into your, uh, regular grid, like the 3D pixels.
+
+Uh, it is easy, but, uh, uh, computationally expensive.
+
+Uh, we also have, uh, parametric surface, for example, uh uh, uh, knobs for steady modelling.
+
+And uh, we also have uh, implicit function which defines the surface of the zero cost of uh, uh, mathematical,
+
+uh, feared, for example, in here for the SDF, the network predicts the distance to the nearest, uh, surface.
+
+The one values larger than zero.
+
+Uh, outside the object smaller than zero are inside the object.
+
+And, uh, if you turn the SDF back into the mesh, we use, uh, uh, matching coop.
+
+And then, um, we also have other ones, the 3D representation nerf uh, uh, which is uh, which use uh, uh,
+
+implicit function to model how light, uh, moves through the space instead of, uh, uh, sorry, the surface, uh, nerf uh, predicts the density.
+
+Uh, here, sigma is the density and the colour for any point, the x you the from any direction D.
+
+So the input output, we need to understand what's the input output.
+
+And uh, by a sampling of points across our camera, the model can't render, uh,
+
+highly detailed of photorealistic, uh, views of these, uh, uh, comments or reflections.
+
+And you get the colour of, uh, single, uh, pixel, um, nerf.
+
+We use, uh, what volumetric rendering it, uh, accumulates colour, uh, long array using, um,
+
+transmittance function t here is the, uh, transmittance which tracks how much light is blocked by occlusions.
+
+Uh Z to traverse towards the camera. And the word love?
+
+Uh, hardly. Uh, qualities. They are slow, so cautious.
+
+Batting. Replace the, uh, neural network with the millions of Gaussian.
+
+That's already Gaussian primitives. It's Gaussian has the mean position, colour variance and, uh, opacity.
+
+Um, because we do not need to backpropagate this MLP during rendering.
+
+Um, 3D Gaussian splatting allows real time interaction, uh, rendering in 3D.
+
+Uh, Gaussians writing is similar to alpha blending.
+
+The final uh colour is the width of the colour of our Gaussian overlap, the uh uh, overlapping uh pixel order by the distance to from the image plane.
+
+Uh, to summarise that to uh, nerf requires a continuous entropy allow ray to find the density on the colour and the 3D Gaussian splatting.
+
+Uh, blender. Uh, this creates a set of Gaussian primitives.
+
+Uh.
+
+Uh, Nerf are often better at, uh, representing complex lighting, uh, whereas 3D Gaussian splatting is the winner for speed and, uh, memory efficiency.
+
+Uh, this is a concept that will be also included in the first part of the, uh, uh, single choice question.
+
+So we need to understand the concept, the final, uh, 3D uh, topic, uh, is the 3D generation is uh, uh,
+
+best on SDF, as this allows us to use a powerful 2D different model, uh, to guide the creation of a 3D object.
+
+Uh, we render, uh, 2D view of the 3D model and add noise, and then use the 2D model to score, uh,
+
+2D to 3D model the score to tell us how to update, uh, 3D with to match, uh, text prompt here.
+
+And then finally we have the video generation part. A video is simply a sequence of a image order in time.
+
+And, uh, we represent this are the 40 tensor, uh, time times, channel times, and the width.
+
+And the video generation is, uh, challenges of, uh, of solving for 2D plus time.
+
+Uh, and to maintain, uh, temporal consistency, models must, uh,
+
+understand how pixels to move between friends uh, optical flow of provides uh, displacement of feared uh,
+
+between friends and it tells us the horizontal and vertical momentum for every pixel,
+
+allowing the model to predict where a specific feature, uh, will be, uh, in the next, uh, instant.
+
+And the mobile, modern, uh, video generation use the diffusion transformer.
+
+Traditional bi directional attention has a latency that just gets, uh, quadratically with the video length.
+
+Make it slow for a long clip. By using causal attention, the initial waiting time become, uh, neglectful and, uh.
+
+Allowing for efficient and autoregressive videos inside that the funnel depend on the, uh, total length of the video.
+
+And that's all for the, uh, uh, preparation for the exam.
+
+And, uh, in the, uh, uh, in our teaching, we introduce a lot of research paper, uh, including my own research or the, uh, public research.
+
+We do not need to. We were not covered.
+
+This, uh, you know, the exam is just, uh, some introduction, uh, to you about, uh, what is, uh, research looks like on the.

@@ -1,0 +1,102 @@
+# Generative_AI_-_Exam_Preparation-2.pdf
+# pages: 100
+001	Generative Al
+002	Question 1: Different Generative Models
+003	Question 2: Basics of Generative Models
+004	Question 3: VAE, GAN, and Diffusion
+005	Time Allocation Strategy
+006	Generative Modeling
+007	Generative Modeling
+008	Kullback-Leibler (KL) Divergence
+009	Example Calculation: KL Divergence
+010	Example Calculation: KL Divergence
+011	Example Calculation: KL Divergence
+012	Generative Modeling
+013	Generative Modeling
+014	Deep Generative Modeling
+015	Deep Generative Models
+016	Softmax Classifier
+017	Feed Forward and Back Propagation
+018	Softmax Classifier
+019	Softmax Classifier
+020	Softmax Classifier
+021	Softmax Classifier
+022	Softmax Classifier
+023	Softmax Classifier
+024	Softmax Classifier
+025	Convolutional Layer
+026	Multi-Input and Multi-Output
+027	Filter Sizes
+028	Stride and Pooling
+029	Type of Language Models
+030	Encoder-only Language Model
+031	Encoder-Decoder Language Model
+032	Decoder-only Language Model
+033	TRANSFORMER EXPLAINER Examples v Generative Al is widely used
+034	Tokenizer — Split Text into Basic Units
+035	Word-level Tokenization
+036	Character-level Tokenization
+037	Subword-level Tokenization
+038	Multi-head Attention and FFN
+039	Attention Scaling
+040	Causal Attention
+041	(1, emb_size)
+042	LLM Learning Framework
+043	Autoregressive Models
+044	Case Study
+045	Case Study
+046	Low-rank Adaptation (LoRA)
+047	Variational Autoencoder (VAE)
+048	VAE
+049	VAE
+050	VAE
+051	VAE
+052	VAE
+053	VAE
+054	Jointly Train both Encoder and Decoder
+055	Jointly Train both Encoder and Decoder
+056	Evidence Lower Bound
+057	Evidence Lower Bound
+058	Evidence Lower Bound
+059	Evidence Lower Bound
+060	Evidence Lower Bound
+061	Evidence Lower Bound
+062	Evidence Lower Bound
+063	Evidence Lower Bound
+064	Evidence Lower Bound
+065	Evidence Lower Bound
+066	GAN: Training Objective
+067	GAN: Training Objective
+068	GAN: Training Objective
+069	Diffusion Forward Process
+070	Diffusion Reverse Process
+071	Transition Distribution
+072	Simplified Transition Distribution
+073	From Local Transitions to Forward Jumps
+074	Basics: Combination of Gaussian Variables
+075	Basics: Combination of Gaussian Variables
+076	Forward Convergence: 2-Step Case
+077	Forward Convergence: 2-Step Case
+078	Forward Convergence: General Case
+079	Forward Distribution Formula
+080	Forward Jump
+081	Latent Diffusion
+082	The Generative Trilemma
+083	Speech Representations
+084	Speech Representations
+085	Spectrogram Frequency Speech Representations
+086	Voice Cloning
+087	Voice Cloning
+088	3D Representations
+089	3D Representations
+090	3D Representations
+091	3D Representations
+092	3D Representations
+093	Render a Density Field
+094	3D Representations
+095	Render a Set of 3D Gaussians
+096	3D Representations
+097	3D Generation
+098	Whatis Video?
+099	Optical Flow
+100	Causal Video Diffusion Models

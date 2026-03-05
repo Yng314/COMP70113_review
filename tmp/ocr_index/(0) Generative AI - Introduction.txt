@@ -1,0 +1,42 @@
+# (0) Generative AI - Introduction.pdf
+# pages: 40
+001	Introduction to Generative Al
+002	Chatbot and Natural Language Conversation
+003	Code Generation
+004	Audio Generation
+005	Image Generation
+006	Video Generation
+007	+ Generate Model
+008	Protein Generation
+009	Weather Forecasting
+010	Development of Al
+011	Discriminative vs. Generative Models
+012	Formulating Problems as Generative Models
+013	Case Study: Formulating as p(x|y)
+014	Case Study: Formulating as p(x|y)
+015	Case Study: Formulating as p(x|y)
+016	Case Study: Formulating as p(x|y)
+017	Learning to Represent Instances vs. Distributions
+018	Probabilistic Modelling
+019	Probabilistic Modelling in Generative Models
+020	Probabilistic Modelling in Generative Models
+021	Types of Data Distributions
+022	Generative Modeling
+023	Generative Modeling
+024	Kullback-Leibler (KL) Divergence
+025	Example Calculation: KL Divergence
+026	Example Calculation: KL Divergence
+027	Example Calculation: KL Divergence
+028	Generative Modeling
+029	Generative Modeling
+030	Deep Generative Modeling
+031	Deep Generative Models
+032	Prerequisites
+033	Syllabus
+034	Logistics — Grading Policies
+035	Course Projects
+036	Late Policy
+037	GenAl Tool Policy
+038	Final Exam
+039	Logistics
+040	Recap

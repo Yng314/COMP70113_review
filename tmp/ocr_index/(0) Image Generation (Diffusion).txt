@@ -1,0 +1,82 @@
+# (0) Image Generation (Diffusion).pdf
+# pages: 80
+001	Image Generation
+002	Overview of Generation Models
+003	The Generative Trilemma
+004	Latent Variable Models
+005	Latent Variable Models
+006	Generative Adversarial Network (GAN)
+007	Variational Autoencoder (VAE)
+008	Bayes’ Rule
+009	Evidence Lower Bound (ELBO)
+010	Summary of VAE
+011	Training of VAE
+012	Sampling of VAE
+013	Limitations of VAE
+014	Hierarchical VAE
+015	Markovian Hierarchical VAE
+016	Markovian Hierarchical VAE
+017	ELBO
+018	Markovian Hierarchical VAE
+019	Forward Process
+020	Reverse Process
+021	Different Perspectives on Diffusion Models
+022	Historical Trajectory of Diffusion Models
+023	“Deep Unsupervised “Denoising Diffusion
+024	Score Estimation
+025	Flow Matching
+026	Diffusion Forward Process
+027	Diffusion Reverse Process
+028	Transition Distribution
+029	Simplified Transition Distribution
+030	ELBO
+031	Reconstruction Term
+032	From Local Transitions to Forward Jumps
+033	Basics: Combination of Gaussian Variables
+034	Basics: Combination of Gaussian Variables
+035	Forward Convergence: 2-Step Case
+036	Forward Convergence: 2-Step Case
+037	Forward Convergence: General Case
+038	Forward Distribution Formula
+039	Forward Jump
+040	Limit of the Forward Process
+041	Convergence to Noise
+042	Prior Matching Term
+043	Reverse Process
+044	Reverse Process
+045	Conditioning on the Starting Point
+046	Intuitive Understanding: Walking in Fog
+047	Consistency Term
+048	Updated ELBO
+049	ELBO Terms
+050	q(x¢—1]x¢, X0)
+051	q(xe—1]x¢, x0)
+052	q(xe—1]x¢, x0)
+053	Solving for the Reverse Distribution
+054	Mean and Covariance Properties
+055	Forward Process Distributions
+056	Forward Process Distributions
+057	Forward Process Distributions
+058	Summary of Distributions
+059	Denoising Matching Term
+060	Denoising Matching Term
+061	Mean Predictor
+062	Mean Predictor Training
+063	Clean-Sample Predictor
+064	Noise Predictor
+065	Noise Predictor
+066	Three Options for Variational Distribution
+067	Reverse Process
+068	Why We Predict Noise
+069	Repeat:
+070	Sampling
+071	Diffusion algorithm
+072	Noise Conditional Network
+073	Noise Conditional Network
+074	Example: Generation on CIFAR-10
+075	Latent Diffusion
+076	Latent Diffusion
+077	Latent Diffusion
+078	Latent Diffusion
+079	Recap
+080	Reading Materials

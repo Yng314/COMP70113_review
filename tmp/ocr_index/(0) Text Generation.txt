@@ -1,0 +1,90 @@
+# (0) Text Generation.pdf
+# pages: 88
+001	Text Generation
+002	Capabilities of LLMs
+003	Type of Language Models
+004	Encoder-only Language Model
+005	Encoder-Decoder Language Model
+006	Decoder-only Language Model
+007	TRANSFORMER EXPLAINER Examples v Generative Al is widely used
+008	Text-generative Transformer
+009	Text-generative Transformer
+010	Embedding
+011	Embedding
+012	Embedding
+013	Transformer Block
+014	Query, Key, and Value Matrices
+015	Multi-Head Splitting
+016	Masked Self-Attention
+017	Output and Concatenation
+018	MLP: Multi-Layer Perceptron
+019	Output Probabilities
+020	Temperature
+021	Top-k Sampling
+022	Top-p Sampling
+023	size(B)
+024	Text-generative Transformer
+025	Tokenizer — Split Text into Basic Units
+026	Word-level Tokenization
+027	Character-level Tokenization
+028	Subword-level Tokenization
+029	Word Embedding
+030	Position Embedding
+031	Rotary Embedding (RoPE)
+032	Rotary Embedding (RoPE)
+033	Multihead Attention and FFN
+034	SHA vs MHA
+035	Attention Scaling
+036	Causal Attention
+037	KV-Cache
+038	(1, emb_size) KV-Cache
+039	(1, emb_size)
+040	Efficient Attention
+041	Attention Computation Overview
+042	Softmax
+043	Attention Computation
+044	Flash Attention
+045	Goal:
+046	Feed-Forward
+047	Dense vs Sparse Model
+048	Transformer MoE
+049	Shared vs. Routed Experts
+050	LLM Learning Targets
+051	LLM Learning Framework
+052	LLM Recipe
+053	Pre-training of LMMs
+054	Example of Pretraining Data
+055	Probability Model for Next Token
+056	Autoregressive Models
+057	Autoregressive Probability Model
+058	Modeling a Sequence of Words
+059	Case Study
+060	Case Study
+061	Case Study
+062	Case Study
+063	Measuring Performance of LLM
+064	Measuring Performance of LLM
+065	Model Size Over Time
+066	Scaling Laws
+067	Scaling Laws
+068	Test Loss Scaling Laws
+069	Loss L(N, D) Scaling Laws
+070	Scaling Laws
+071	Instruction Tuning
+072	Instruction Tuning
+073	SFT Training Data Example
+074	LLM Fine-tuning is Expensive
+075	Parameter Efficient Fine-tuning (PEFT)
+076	Low-rank Adaptation (LoRA)
+077	LoRA in Transformer
+078	Backward Computation of LoRA
+079	Training LORA
+080	Memory Consumption of LoORA Training
+081	Benefits of LORA
+082	Reinforce Learning
+083	Reinforce Learning
+084	Recap
+085	Recap
+086	Recap
+087	Course Project ldea
+088	Reading Material

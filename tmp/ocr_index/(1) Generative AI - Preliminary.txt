@@ -1,0 +1,64 @@
+# (1) Generative AI - Preliminary.pdf
+# pages: 62
+001	Preliminary:
+002	Linear Classification
+003	airplane
+004	Criteria of a Good Classifier
+005	Deep Learning Classifier
+006	Softmax Classifier
+007	Softmax Classifier
+008	2 2.0 Softmax Classifier
+009	Softmax Classifier
+010	Softmax Classifier
+011	Softmax Classifier
+012	Softmax Classifier
+013	Softmax Classifier
+014	Feed Forward and Back Propagation
+015	Softmax Classifier
+016	Softmax Classifier
+017	Softmax Classifier
+018	Softmax Classifier
+019	Softmax Classifier
+020	a3 ag as
+021	Softmax Classifier
+022	Implementation
+023	Value
+024	Implementation
+025	Softmax Application
+026	Linear Layer
+027	Example: Linear Classification
+028	Stacking Layers
+029	9(2) Rectified linear unit (ReLU)
+030	Output
+031	Example: Nonlinear Classification
+032	Deep Nets
+033	Gradient Descent
+034	Network output
+035	Network output
+036	Loss Function
+037	Deep Learning
+038	Forward and Backward
+039	Forward and Backward
+040	Linear Layer
+041	Example: MLP Forward
+042	e [ ey N N Example: MLP Backward
+043	Fully & Locally Connected Network
+044	Fully-connected Layer
+045	Convolutional Layer
+046	Image Perception
+047	Convolutional Layer
+048	Multi-Input and Multi-Output
+049	Example: Multiple Channels
+050	Example: Multiple Channels
+051	Filter Sizes
+052	Feature Maps
+053	Stride and Pooling
+054	Deep CNN
+055	Limitation of CNNs
+056	New Data Type: Tokens
+057	tokens
+058	Attention
+059	A Family of Linear Layers
+060	Recap
+061	Exercises
+062	Reading Materials

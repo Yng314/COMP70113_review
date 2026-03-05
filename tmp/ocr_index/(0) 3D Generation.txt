@@ -1,0 +1,104 @@
+# (0) 3D Generation.pdf
+# pages: 102
+001	IMPERIAL
+002	3D Generative Al - 2026
+003	3D Generative Al - 2026
+004	3D Generative Al - 2026
+005	3D Generative Al - 2026
+006	3D Generative Al - 2026
+007	3D Generative Al - 2026
+008	3D Generative Al - 2026
+009	Preliminaries: 3D Representations
+010	3D Generative Al - 2026
+011	3D Generative Al - 2026
+012	3D Generative Al - 2026
+013	3D Generative Al - 2026
+014	3D Generative Al - 2026
+015	3D Generative Al - 2026
+016	3D Generative Al - 2026
+017	Preliminaries: 3D Representations
+018	Preliminaries: 3D Representations
+019	Preliminaries: 3D Representations
+020	3D Generative Al - 2026
+021	Preliminaries: 3D Representations
+022	3D Generative Al - 2026
+023	3D Generative Al - 2026
+024	3D Generative Al - 2026
+025	3D Generative Al - 2026
+026	3D Generative Al - 2026
+027	3D Generative Al - 2026
+028	3D Generative Al - 2026
+029	3D Generative Al - 2026
+030	3D Generative Al - 2026
+031	Preliminaries: 3D Representations
+032	Preliminaries: 3D Representations
+033	Preliminaries: 3D Representations
+034	How we render a density field?
+035	How we render a density field?
+036	How we render a density field?
+037	How we render a density field?
+038	Preliminaries: 3D Representations
+039	Preliminaries: 3D Representations
+040	How we render a set of 3D Gaussians?
+041	How we render a set of 3D Gaussians?
+042	How we render a set of 3D Gaussians?
+043	How we render a set of 3D Gaussians?
+044	How we render a set of 3D Gaussians?
+045	3D Generative Al - 2026
+046	3D Generative Al - 2026
+047	3D Generative Al - 2026
+048	3D Generative Al - 2026
+049	3D Generation
+050	3D Generation
+051	3D Generative Al - 2026
+052	3D Generation
+053	3D Generative Al - 2026
+054	3D Generation
+055	3D Generative Al - 2026
+056	3D Generative Al - 2026
+057	3D Generative Al - 2026
+058	Limitations ®
+059	3D Generation
+060	3D Generative Al - 2026
+061	3D Generative Al - 2026
+062	3D Generation
+063	Limitations ®
+064	3D Generative Al - 2026
+065	3D Generative Al - 2026
+066	3D Generative Al - 2026
+067	3D Generation
+068	3D Generative Al - 2026
+069	Limitations ®
+070	3D Generative Al - 2026
+071	3D Generative Al - 2026
+072	3D Generation
+073	3D Generation
+074	3D Generation
+075	3D Generation
+076	3D Generative Al - 2026
+077	Key idea
+078	3D Generative Al - 2026
+079	Key idea
+080	3D Generative Al - 2026
+081	3D Generative Al - 2026
+082	3D Generative Al - 2026
+083	3D Generative Al - 2026
+084	Key idea
+085	3D Generation
+086	3D Generation
+087	Reminders
+088	3D Generative Al - 2026
+089	3D Generative Al - 2026
+090	3D Generative Al - 2026
+091	3D Generative Al - 2026
+092	3D Generative Al
+093	3D Generative Al - 2026
+094	3D Generative Al
+095	3D Generative Al -
+096	3D Generative Al
+097	3D Generative Al -
+098	3D Generative Al - 2026
+099	3D Generative Al - 2026
+100	3D Generative Al - 2026
+101	3D Generation
+102	3D Generation

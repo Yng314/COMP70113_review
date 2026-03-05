@@ -1,0 +1,113 @@
+# (0) Video Generation.pdf
+# pages: 111
+001	Video Generation
+002	Whatis Video?
+003	Image vs. Video Classification
+004	The Data Size Challenge
+005	Solution: Clips
+006	Video Classification: Single-Frame CNN
+007	Video Classification: Late Fusion
+008	Video Classification: Late Fusion
+009	The Limitation of Late Fusion
+010	Video Classification: Early Fusion
+011	The Limitation of Early Fusion
+012	Video Classification: 3D CNN
+013	Recap: Convolution Layer
+014	3D Convolution
+015	Late Fusion vs. Early Fusion vs. 3D CNN
+016	Late Fusion vs. Early Fusion vs. 3D CNN
+017	Late Fusion vs. Early Fusion vs. 3D CNN
+018	Late Fusion vs. Early Fusion vs. 3D CNN
+019	Late Fusion vs. Early Fusion vs. 3D CNN
+020	2D Conv (Early Fusion) vs 3D Conv (3D CNN)
+021	2D Conv (Early Fusion) vs 3D Conv (3D CNN)
+022	2D Conv (Early Fusion) vs 3D Conv (3D CNN)
+023	Video Dataset: Sports-1M
+024	Early Fusion vs. Late Fusion vs. 3D CNN
+025	Layer
+026	85
+027	Optical Flow
+028	Two-Stream Networks
+029	Two-Stream Networks
+030	Spatio-Temporal Self-Attention
+031	Spatio-Temporal Self-Attention
+032	Spatio-Temporal Self-Attention
+033	Spatio-Temporal Self-Attention
+034	Spatio-Temporal Self-Attention
+035	Spatio-Temporal Self-Attention
+036	Spatio-Temporal Self-Attention
+037	Inflating 2D Networks to 3D (I3D)
+038	Inflating 2D Networks to 3D (I3D)
+039	Inflating 2D Networks to 3D (I3D)
+040	Inflating 2D Networks to 3D (I3D)
+041	Vision Transformers for Video
+042	Vision Transformers for Video
+043	Video Understanding + LLMs LM LM LM LLM
+044	OneVision-Encoder Codec-Aligned Sparsity as a Foundational Principle
+045	Codec-aligned Predictive Compression
+046	OneVision Encoder Framework
+047	Height 3D-RoPE for Codec Patchification
+048	Cluster Discrimination
+049	Multimodal Performance
+050	Visualization of I- and P-frame
+051	Comparison of Spatiotemporal Learning
+052	Comparison of Spatiotemporal Learning Original Video Uniform Frame Sampling ~ Temporal Saliency Detection Codec-Style Patch Extraction
+053	CoPE-VideolLM
+054	CoPE-VideolLM
+055	Recap: Diffusion Model
+056	Forward Process
+057	Forward Jump
+058	Reverse Process
+059	Training Objective
+060	Image Generation
+061	Speed up DDPM
+062	DDIM
+063	DDPMvs. DDIM
+064	From Image to Video Generation
+065	From 2D to 3D Output
+066	Cascaded Video Generation
+067	Coarse-to-fine Hierarchical Generation
+068	Coarse-to-fine Hierarchical Generation
+069	Recurrent
+070	Sora Demo - Snowy City
+071	Sora Demo - Tokyo Street
+072	Sora Framework
+073	Video Diffusion Models
+074	Noise ¥ ]
+075	Generate Latent
+076	Movie
+077	Interactive 3D World Generation
+078	World Model for Robotic Learning
+079	Al Video Generation Comparison
+080	Evaluation Metrics
+081	Fréchet Inception Distance (FID)
+082	Fréchet Video Distance (FVD)
+083	Kernel Video Distance
+084	Video Inception Score (IS)
+085	Video Diffusion Models
+086	CausVid
+087	Rethinking the Bidirectional Attention
+088	Causal Video Diffusion Models
+089	Student
+090	Methodology
+091	Scalable Decoder-only Autoregressive DiT
+092	Asymmetric Distillation Alleviates
+093	Connection with LLM
+094	Quality and Speed Experimental Results
+095	Average Imaging Quality over Time
+096	VBench Benchmark
+097	Experimental Results
+098	Real-Time Video Viewing During Generation
+099	Diverse Video Generation Tasks
+100	Text to 5-second Short Vldeo Generatlon
+101	Text to 30- second Long Video Generatlon
+102	Zero-shot Image to Video Generation
+103	Text to Video Generation Comparison
+104	Text to Long Video Generation Comparison
+105	Ablation Study
+106	Limitation: Reduced Diversity
+107	Comparison with Bidirectional Teacher
+108	Comparison with Bidirectional Teacher
+109	Course Work Idea: Interactive Demo
+110	Recap
+111	Reading Materials
